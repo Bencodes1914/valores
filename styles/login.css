@@ -1,0 +1,43 @@
+.image{
+    width: 50%;
+    height: 300vh;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.inputSection{
+    width: 50%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-input{
+    width:100%;
+}
+.text-input>input{
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+label{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}
+button{
+    width:400px ;
+    height: 70px;
+    color: white;
+    background-color: rgb(190, 35, 35);
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5px 4px 3px 2px;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
